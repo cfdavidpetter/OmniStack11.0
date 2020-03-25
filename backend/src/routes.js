@@ -15,7 +15,7 @@ routes.get('/', (req, res) => {
     });
 });
 
-routes.post('/session', SessionController.create);
+routes.post('/sessions', SessionController.create);
 
 routes.get('/ongs', OngController.index);
 routes.post('/ongs', OngController.create);
@@ -25,6 +25,5 @@ routes.get('/profile', ProfileController.index);
 routes.get('/incidents', IncidentContrtoller.index);
 routes.post('/incidents', IncidentContrtoller.create);
 routes.delete('/incidents/:id', IncidentContrtoller.delete);
-
 
 module.exports = routes;
