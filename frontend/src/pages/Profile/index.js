@@ -16,16 +16,6 @@ function Profile() {
   const ongId = localStorage.getItem('ongId');
   const ongName = localStorage.getItem('ongName');
 
-  useEffect(() => {
-    api.get('profile', {
-      headers: {
-        Authorization: ongId,
-      }
-    }).then(res => {
-      setIncidents(res.data);
-    })
-  }, [ongId]);
-
   async function handleDeleteIncident(id) {
     try {
       await api.delete(`incidents/${id}`, {
@@ -44,6 +34,16 @@ function Profile() {
     localStorage.clear()
     history.push('/');
   }
+
+  useEffect(() => {
+    api.get('profile', {
+      headers: {
+        Authorization: ongId,
+      }
+    }).then(res => {
+      setIncidents(res.data);
+    })
+  }, [ongId]);
 
   return (
     <div className="profile-container">
