@@ -13,7 +13,8 @@ export default function Detail() {
   const nagevation = useNavigation();
 
   const incident = route.params.incident;
-  const message = `Olá "${incident.name}" gostaria de ajuda no caso "${incident.title}" com o valor de R$ 120,00`;
+  const value = Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(incident.value);
+  const message = `Olá "${incident.name}" gostaria de ajuda no caso "${incident.title}" com o valor de ${value}`;
 
   function navegationBack() {
     nagevation.goBack();
@@ -49,7 +50,7 @@ export default function Detail() {
         <Text style={styles.incidentValue}>{incident.title}</Text>
 
         <Text style={styles.incidentProperty}>VALOR:</Text>
-        <Text style={styles.incidentValue}>{incident.value}</Text>
+        <Text style={styles.incidentValue}>{value}</Text>
       </View>
 
       <View style={styles.contactBox}>
