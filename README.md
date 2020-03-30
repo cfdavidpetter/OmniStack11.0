@@ -1,7 +1,7 @@
 # 👨‍🎓 OmniStack11.0
 
-## Backend 
+### Backend 
 
-## Frontend 
+### Frontend 
 
-## Mobile
+### Mobile
