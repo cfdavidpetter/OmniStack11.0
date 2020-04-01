@@ -1,6 +1,6 @@
 # 👨‍🎓 OmniStack11.0
 
-### Download of Project
+### Download of Project 📋
     git clone https://github.com/cfdavidpetter/OmniStack11.0.git
 ### Backend 
     cd backend && npm install && npm run start
