@@ -2,7 +2,7 @@
 
 ### Download of Project 📋
     git clone https://github.com/cfdavidpetter/OmniStack11.0.git
-### Backend 
+### Backend 🛠
     cd backend && npm install && npm run start
 ### Frontend 
     cd frontend && npm install && npm run start
