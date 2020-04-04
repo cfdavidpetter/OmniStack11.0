@@ -6,5 +6,5 @@
     cd backend && npm install && npm run start
 ### Frontend 💎
     cd frontend && npm install && npm run start
-### Mobile
+### Mobile 📱
     cd mobile && npm install && npm run start
