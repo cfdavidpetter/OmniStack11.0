@@ -1,10 +1,10 @@
 # 👨‍🎓 OmniStack11.0
 
-### Technologies
+### 🔹 Technologies
 
 ![React & NodeJS](https://cdn.filestackcontent.com/9UlIPoSATP6iLvQJgHiF "React & NodeJS")
 
-### Install
+### 🔹 Install
 
 #### Download of Project 📋
     git clone https://github.com/cfdavidpetter/OmniStack11.0.git
