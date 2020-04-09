@@ -3,9 +3,9 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/cfdavidpetter/OmniStack11.0/master/mobile/src/assets/logo%402x.png">
 </p>
-
+<p align="center">
 Be The Hero was a project involved in the online challenge called 'Omnistack Week 11'. The project consists of bringing organizations closer to their donors.
-
+</p>
 
 ### 📌 Technologies
 
