@@ -7,6 +7,8 @@
 Be The Hero was a project involved in the online challenge called 'Omnistack Week 11'. The project consists of bringing organizations closer to their donors.
 </p>
 
+------------
+
 ### 📌 Technologies
 
 ![React & NodeJS](https://cdn.filestackcontent.com/9UlIPoSATP6iLvQJgHiF "React & NodeJS")
