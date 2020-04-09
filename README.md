@@ -11,7 +11,7 @@ Be The Hero was a project involved in the online challenge called 'Omnistack Wee
 
 ### 📌 Technologies
 
-![React & NodeJS](https://cdn.filestackcontent.com/9UlIPoSATP6iLvQJgHiF "React & NodeJS")
+<img src="https://cdn.filestackcontent.com/9UlIPoSATP6iLvQJgHiF">
 
 ### 📌 Install
 
