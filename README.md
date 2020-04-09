@@ -1,7 +1,7 @@
 # 👨‍🎓 OmniStack11.0
 
 <p align="center">
-  <img width="460" height="300" src="https://raw.githubusercontent.com/cfdavidpetter/OmniStack11.0/master/mobile/src/assets/logo%402x.png">
+  <img src="https://raw.githubusercontent.com/cfdavidpetter/OmniStack11.0/master/mobile/src/assets/logo%402x.png">
 </p>
 
 
